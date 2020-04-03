@@ -1,7 +1,7 @@
 {
-  "name": "@sveltejs/xofy",
+  "name": "xofy",
   "version": "0.0.0",
-  "description": "A component that simply displays a number, then the word "of", then another number. The purpose of this would be to display the current index of an array that you are navigating through.",
+  "description": "A component that simply displays a number, then the word \"of\", then another number. The purpose of this would be to display the current index of an array that you are navigating through.",
   "main": "xofy.svelte",
   "svelte": "xofy.svelte",
   "scripts": {
@@ -38,5 +38,8 @@
     "src",
     "index.mjs",
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
 }

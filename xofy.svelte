@@ -2,7 +2,8 @@
 
 
 
-
+export let x;
+export let y;
 
 
 
@@ -15,12 +16,11 @@
 
 
 
-
-
+{#if x && y}
 <article>
-	xofy
+	{x} of {y}
 </article>
-
+{/if}
 
 
 
